@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .main-container {
+            width: 90%;
+            margin: 50px auto;
+        }
+        
+        .container-items {
+            width: 30%;
+            margin-bottom: 50px;
+            background-color: #fff;
+            border-radius: 0.4rem;
+            overflow: hidden;
+            box-shadow: 0 3rem 6rem rgba(0, 0, 0, .1);
+            cursor: pointer;
+            transition: 0.2s;
+        }
+        
+        .main-heading {
+            font-size: 1.5rem;
+            font-weight: 500;
+            color: #0d0d0d;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        
+        .main-paragraph {
+            padding: 30px 10px;
+            text-align: center;
+            font-size: 18px;
+        }
+        
+        .container-items:hover {
+            transform: translateY(-0.5%);
+            box-shadow: 0 4rem 8rem rgba(0, 0, 0, .2);
+        }
+        
+        .container-row {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            flex-flow: wrap;
+        }
+        
+        .main-btn {
+            /* background: linear-gradient(to right, #ff416c, #ff4b2b); */
+            margin: 30px;
+            text-decoration: none;
+            /* padding: 10px 5px; */
+            display: block;
+            width: 80%;
+            padding: 0.5rem;
+            font-size: 2rem;
+            text-align: center;
+            color: #3363ff;
+            background-color: #e6ecff;
+            border: none;
+            border-radius: 0.4rem;
+            transition: 0.2s;
+            cursor: pointer;
+        }
+        
+        .main-btn:hover,
+        .main-btn:active {
+            background-color: #dce4ff;
+        }
+        
+        .main-heading img {
+            display: block;
+            width: 100%;
+            height: 20rem;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="main-container">
+            <div class="container-row">
+                <div class="container-items">
+                    <div class="main-heading">
+                        <img class="main-img" src="https://images.unsplash.com/photo-1594534475808-b18fc33b045e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTR8fHdhdGNoZXN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+                        <h1 class="card__header">A starry night</h1>
+                    </div>
+                    <div class="main-paragraph">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo voluptas veritatis nobis tempore laborum perspiciatis?</p>
+                        <a href="#" class="main-btn">Add to cart</a>
+                    </div>
+                </div>
+                <div class="container-items">
+                    <div class="main-heading">
+                        <img class="main-img" src="https://images.pexels.com/photos/5895645/pexels-photo-5895645.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                        <h1 class="card__header">A starry night</h1>
+                    </div>
+                    <div class="main-paragraph">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo voluptas veritatis nobis tempore laborum perspiciatis?</p>
+                        <a href="#" class="main-btn">Add to cart</a>
+                    </div>
+                </div>
+                <div class="container-items">
+                    <div class="main-heading">
+                        <img class="main-img" src="https://images.pexels.com/photos/5895643/pexels-photo-5895643.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                        <h1 class="card__header">A starry night</h1>
+                    </div>
+                    <div class="main-paragraph">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo voluptas veritatis nobis tempore laborum perspiciatis?</p>
+                        <a href="#" class="main-btn">Add to cart</a>
+                    </div>
+                </div>
+                <div class="container-items">
+                    <div class="main-heading">
+                        <img class="main-img" src="https://images.pexels.com/photos/6336015/pexels-photo-6336015.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                        <h1 class="card__header">A starry night</h1>
+                    </div>
+                    <div class="main-paragraph">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo voluptas veritatis nobis tempore laborum perspiciatis?</p>
+                        <a href="#" class="main-btn">Add to cart</a>
+                    </div>
+                </div>
+                <div class="container-items">
+                    <div class="main-heading">
+                        <img class="main-img" src="https://images.unsplash.com/photo-1594534475808-b18fc33b045e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTR8fHdhdGNoZXN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+                        <h1 class="card__header">A starry night</h1>
+                    </div>
+                    <div class="main-paragraph">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo voluptas veritatis nobis tempore laborum perspiciatis?</p>
+                        <a href="#" class="main-btn">Add to cart</a>
+                    </div>
+                </div>
+                <div class="container-items">
+                    <div class="main-heading">
+                        <img class="main-img" src="https://images.unsplash.com/photo-1468421201266-ec88b2809284?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTN8fHdhdGNoZXN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+                        <h1 class="card__header">A starry night</h1>
+                    </div>
+                    <div class="main-paragraph">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo voluptas veritatis nobis tempore laborum perspiciatis?</p>
+                        <a href="#" class="main-btn">Add to cart</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

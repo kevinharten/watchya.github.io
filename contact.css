@@ -1,0 +1,85 @@
+@font-face {
+    font-family: PlulariusDemoRegular;
+    src: url('PlulariusDemoRegular.ttf');
+}
+
+@font-face {
+    font-family: futura-book-bt-22240;
+    src: url('futura-book-bt-22240.ttf')
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+}
+
+.contact-container {
+    border-radius: 5px;
+    padding: 20px;
+    margin: 50px;
+}
+
+.contact-container label {
+    text-transform: uppercase;
+    font-family: 'Cantarell', sans-serif;
+    font-weight: bold;
+}
+
+.contact-container .form-group .fcf-form-cont {
+    width: 100%;
+    height: 2.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    padding: 12px;
+}
+
+.contact-container .form-group .fcf-form-textarea {
+    width: 100%;
+    font-family: 'Cantarell', sans-serif;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    height: 12rem;
+}
+
+.form-group .form-input-group textarea {
+    height: 12rem;
+}
+
+.fcf.form-button {
+    background-color: red;
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        .main-card-container {
+            width: 90;
+            margin: 50px auto;
+        }
+        
+        .main-card-items {
+            width: 30%;
+            margin-bottom: 50px;
+            background-color: #fff;
+            border-radius: 0.4rem;
+            overflow: hidden;
+            box-shadow: 0 3rem 6rem rgba(0, 0, 0, .1);
+            cursor: pointer;
+            transition: 0.2s;
+        }
+        
+        .main-card-heading {
+            font-size: 1.2rem;
+            font-weight: 500;
+            color: #0d0d0d;
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+            text-align: center;
+        }
+        
+        .main-card-heading h1 {
+            margin-top: 1rem;
+        }
+        
+        .main-card-para {
+            padding: 30px 10px;
+            text-align: center;
+            font-size: 18px;
+        }
+        
+        .main-card-items:hover {
+            transform: translateY(-0.5%);
+            box-shadow: 0 4rem 8rem rgba(0, 0, 0, .2);
+        }
+        
+        .row-card {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            flex-flow: wrap;
+        }
+        
+        .main-card-btn {
+            color: #3363ff;
+            background-color: #e6ecff;
+            margin: 30px;
+            text-decoration: none;
+            display: block;
+            width: 80%;
+            padding: 0.5rem;
+            font-size: 1.5rem;
+            text-align: center;
+            border: none;
+            border-radius: 0.4rem;
+            transition: 0.2s;
+            cursor: pointer;
+        }
+        
+        .main-card-btn:hover,
+        .main-card-btn:active {
+            background-color: #dce4ff;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="main-card-container">
+            <div class="row-card">
+                <div class="main-card-items">
+                    <div class="main-card-heading">
+                        <img class="main-img" src="https://images.unsplash.com/photo-1594534475808-b18fc33b045e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTR8fHdhdGNoZXN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+                        <h1>Angular</h1>
+                    </div>
+                    <div class="main-card-para">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel ipsam ut beatae et amet? Aliquam.</p>
+                        <a href="" class="main-card-btn">Add to cart</a>
+                    </div>
+                </div>
+                <div class="main-card-items">
+                    <div class="main-card-heading">
+                        <img class="main-img" src="https://images.unsplash.com/photo-1594534475808-b18fc33b045e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTR8fHdhdGNoZXN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+                        <h1>Angular</h1>
+                    </div>
+                    <div class="main-card-para">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quis sunt libero beatae, ipsam quam.</p>
+                        <a href="" class="main-card-btn">Add to cart</a>
+                    </div>
+                </div>
+                <div class="main-card-items">
+                    <div class="main-card-heading">
+                        <img class="main-img" src="https://images.unsplash.com/photo-1594534475808-b18fc33b045e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTR8fHdhdGNoZXN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+                        <h1>Angular</h1>
+                    </div>
+                    <div class="main-card-para">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quis sunt libero beatae, ipsam quam.</p>
+                        <a href="" class="main-card-btn">Add to cart</a>
+                    </div>
+                </div>
+                <div class="main-card-items">
+                    <div class="main-card-heading">
+                        <img class="main-img" src="https://images.unsplash.com/photo-1594534475808-b18fc33b045e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTR8fHdhdGNoZXN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+                        <h1>Angular</h1>
+                    </div>
+                    <div class="main-card-para">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quis sunt libero beatae, ipsam quam.</p>
+                        <a href="" class="main-card-btn">Add to cart</a>
+                    </div>
+                </div>
+                <div class="main-card-items">
+                    <div class="main-card-heading">
+                        <img class="main-img" src="https://images.unsplash.com/photo-1594534475808-b18fc33b045e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTR8fHdhdGNoZXN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+                        <h1>Angular</h1>
+                    </div>
+                    <div class="main-card-para">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quis sunt libero beatae, ipsam quam.</p>
+                        <a href="" class="main-card-btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
